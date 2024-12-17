@@ -1,12 +1,11 @@
 'use client'
 import Footer from '@/components/footer'
-import Header from '@/components/header'
 import NavBar from '@/components/navBar'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [addToCart, setAddToCart] = useState(false)
     const showCart = () => setAddToCart(!addToCart)
     return (
@@ -260,4 +259,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

@@ -1,7 +1,6 @@
 import Footer from '@/components/footer';
 import Header from '@/components/header';
 import NavBar from '@/components/navBar';
-import { RefCell } from 'next/dist/build/swc/generated-native';
 import Image from 'next/image';
 import React from 'react';
 
@@ -163,8 +162,8 @@ const page = () => {
 
                         <h1 className="mt-3 text-2xl font-semibold m-5 ">Recent Posts</h1>
                         {
-                            RecentPosts.map((value: Omit<blogType, "category">) => (
-                                <div className="flex flex-col md:flex-row gap-4 m-5">
+                            RecentPosts.map((value: Omit<blogType, "category">,index:number) => (
+                                <div key={index} className="flex flex-col md:flex-row gap-4 m-5">
                                     <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px]">
                                         <Image
                                             className=" object-contain aspect-square"

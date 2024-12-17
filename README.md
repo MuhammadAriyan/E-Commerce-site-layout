@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Furniture E-Commerce Website - UI/UX Design
 
-First, run the development server:
+## Overview
+This is a **UI/UX design** for an e-commerce website focused on selling furniture. The goal of this project was to create an intuitive and visually appealing user experience while ensuring smooth navigation and a modern look. The design includes product pages, a shopping cart, checkout flow, and more, all designed with user-centric principles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+### 1. **Homepage**
+   - **Hero Section**: Large banner with a call-to-action (CTA) directing users to featured products or categories.
+   - **Navigation Bar**: A clean, easy-to-use navigation bar for users to access key sections of the site.
+   - **Product Grid**: Display of popular furniture items in a responsive grid layout with hover effects.
+   - **Search Bar**: Prominently placed search bar for users to quickly find products.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Product Listing Page**
+   - **Filters and Sorting**: Users can filter products based on categories, prices, ratings, and other attributes.
+   - **Product Thumbnails**: Products are displayed with high-quality images, brief descriptions, and prices.
+   - **Quick View Option**: Allows users to see more product details without navigating away from the page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. **Product Detail Page**
+   - **Image Gallery**: Multiple images of the product from different angles with zoom functionality.
+   - **Description and Specifications**: A section for detailed product descriptions and technical specifications.
+   - **Add to Cart Button**: Clear and prominent CTA to add products to the shopping cart.
+   - **User Reviews**: A section for user-generated reviews and ratings for each product.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. **Shopping Cart**
+   - **Product Overview**: Users can easily view the items they have added to the cart, including images, quantities, and prices.
+   - **Price Summary**: The cart page includes a clear breakdown of the total price, taxes, and shipping costs.
+   - **Proceed to Checkout Button**: A call-to-action to move users forward in the purchasing process.
 
-## Learn More
+### 5. **Checkout Page**
+   - **Form Fields**: Easy-to-navigate forms for users to enter shipping and payment details.
+   - **Order Summary**: Display of the selected items, total price, and a confirmation option before final submission.
+   - **Secure Payment Options**: Design ensures secure and seamless integration with payment gateways.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. **Responsive Design**
+   - **Mobile First**: The design is fully responsive, with a mobile-first approach ensuring a smooth experience across all devices.
+   - **Adaptive Layouts**: The layout adapts fluidly to different screen sizes, maintaining the user experience without losing visual appeal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design Principles
+- **Minimalism**: The design utilizes a clean and minimalist approach, focusing on usability and removing unnecessary elements.
+- **Consistency**: The use of consistent colors, typography, and layout ensures that the design feels cohesive across all pages.
+- **Accessibility**: Key accessibility considerations were made, including readable fonts, high-contrast color schemes, and easy-to-navigate layouts.
+- **Visual Hierarchy**: Clear and concise information hierarchy ensures that users can quickly identify important actions and details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+- **Design Tool**: Figma
+- **UI Framework**: Tailwind CSS (for future implementation)
+- **Prototyping**: Figma Prototyping Tools

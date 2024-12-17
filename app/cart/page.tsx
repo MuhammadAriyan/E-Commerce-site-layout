@@ -1,6 +1,7 @@
 import Footer from '@/components/footer';
 import Header from '@/components/header';
 import NavBar from '@/components/navBar';
+import Image from 'next/image';
 import React from 'react';
 
 const Page = () => {
@@ -21,10 +22,12 @@ const Page = () => {
 
                             <div className="flex flex-col xl:flex-row justify-between items-center mb-6">
                                 <div className="flex items-center">
-                                    <img
+                                    <Image
                                         src="/store/Asgaard sofa 2.png"
                                         alt="Asgard Sofa - A luxurious seating option."
                                         className="w-20 h-20 mr-4 p-2 bg-[#FBEBB5] rounded-lg"
+                                        height={7890}
+                                        width={7890}
                                     />
                                     <span className="text-gray-600 text-sm sm:text-base lg:text-lg">Asgard Sofa</span>
                                 </div>
