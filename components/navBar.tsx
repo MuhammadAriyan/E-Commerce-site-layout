@@ -13,7 +13,7 @@ const NavBar = () => {
 
     return (
         <nav className='h-[6.25rem] flex justify-center z-50'>
-            <ul className='flex gap-[4.6rem] m-[2.25rem] w-[26.8rem] h-[1.5rem] text-center z-50 ml-2'>
+            <ul className='flex text-sm gap-2 md:text-base md:gap-[4.6rem] m-[2.25rem] w-[26.8rem] h-[1.5rem] text-center z-50 ml-2'>
                 <li>
                     <Link href={'/'}>
                         Home

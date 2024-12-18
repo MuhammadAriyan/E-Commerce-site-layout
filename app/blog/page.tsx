@@ -2,6 +2,7 @@ import Footer from '@/components/footer';
 import Header from '@/components/header';
 import NavBar from '@/components/navBar';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -64,7 +65,7 @@ const page = () => {
             <Header from='Home' to='Blog' />
             <section className='flex my-11'><div className="w-full md:w-[73vw] p-3 md:p-5">
                 {blogs.map((value: blogType, index: number) => (
-                    <div key={index} className="mb-8 border-b border-gray-300 pb-5">
+                    <div key={index} className="mb-8 pb-5">
                         <div className="relative w-full h-64 md:h-96">
                             <Image
                                 className="rounded-2xl"
@@ -110,6 +111,11 @@ const page = () => {
                         <p className="mt-2 text-gray-700 text-justify leading-relaxed">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
                         </p>
+                        <div className='flex justify-start m-2'>
+              <Link href={'/blogs'} className="w-fit md:p-3 p-1 md:text-[24px] text-sm font-medium leading-[36px] text-center border-black border-b-2">
+                Read More
+              </Link>
+            </div>
                     </div>
                 ))}
             </div>
